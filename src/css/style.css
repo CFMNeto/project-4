@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+* {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 1440px;
+    height: 1024px; */
+}
+
+.container {
+    display: flex;
+    width: 70%;
+    height: 820px;
+    position: relative;
+
+
+}
+
+.cab {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+
+
+}
+
+.cab h1 {
+    display: flex;
+    position: absolute;
+    font-size: 80px;
+    color: hsl(240, 100%, 5%);
+    font-family: 'DM Serif Display', serif;
+    left: 15px;
+    top: -31px;
+
+
+
+}
+
+.menu {
+    display: none;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: right;
+    position: absolute;
+    right: 7%;
+    top: 55px;
+}
+
+ul li {
+    padding: 10px 15px;
+    font-size: 18px;
+}
+
+li a {
+    color: hsl(236, 13%, 42%);
+}
+
+.imagem-web {
+    position: absolute;
+    width: 65%;
+    height: 250px;
+    top: 20%;
+    left: 15px;
+}
+
+.imagem-web img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.new {
+    position: absolute;
+    height: 460px;
+    width: 33%;
+    right: 0;
+    background: hsl(240, 100%, 5%);
+    top: 20%;
+
+
+
+}
+
+.new h2 {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: -5px;
+    font-size: 60px;
+    color: hsl(35, 77%, 62%);
+
+}
+
+.new h3 {
+    margin-left: 25px;
+    font-size: 20px;
+    color: hsl(36, 100%, 99%);
+}
+
+.new p {
+    margin-left: 25px;
+    font-size: 16px;
+    border-bottom: solid 1px hsla(36, 100%, 99%, 0.317);
+    color: hsla(36, 100%, 99%, 0.71);
+    padding-bottom: 20px;
+}
+
+.the {
+    position: absolute;
+    height: 180px;
+    width: 28%;
+
+    top: 54.5%;
+    left: 15px;
+}
+
+.the h2 {
+    font-size: 55px;
+    margin-top: 0;
+    color: hsl(240, 100%, 5%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.read {
+    position: absolute;
+    height: 180px;
+    width: 32%;
+    top: 54.5%;
+    left: 33%;
+}
+
+.read p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    color: hsl(236, 13%, 42%);
+}
+
+.read #p2 {
+    width: 55%;
+    font-size: 15px;
+    padding: 10px 25px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(231, 100%, 99%);
+    margin: none;
+    text-align: center;
+
+}
+
+.img-01 {
+    position: absolute;
+    height: 150px;
+    width: 32%;
+    bottom: 5px;
+    left: 15px;
+}
+
+.img-01 img {
+    position: relative;
+    height: 100%;
+    float: left;
+}
+
+.img-01 h3 {
+    position: absolute;
+    font-size: 30px;
+    left: 135px;
+    top: -34px;
+    color: hsl(233, 8%, 79%);
+
+}
+
+.img-01 h4 {
+    font-size: 22px;
+    position: absolute;
+    left: 135px;
+    top: 10px;
+    color: hsl(240, 100%, 5%);
+}
+
+.img-01 p {
+    position: absolute;
+    font-size: 17px;
+    left: 135px;
+    top: 60px;
+    color: hsl(236, 13%, 42%);
+}
+
+.img-02 {
+    position: absolute;
+    height: 150px;
+    width: 32%;
+    bottom: 5px;
+    left: 33%;
+}
+
+.img-02 img {
+    position: relative;
+    height: 100%;
+}
+
+.img-02 h3 {
+    position: absolute;
+    font-size: 30px;
+    left: 135px;
+    top: -34px;
+    color: hsl(233, 8%, 79%);
+
+}
+
+.img-02 h4 {
+    font-size: 22px;
+    position: absolute;
+    left: 135px;
+    top: 10px;
+    color: hsl(240, 100%, 5%);
+
+
+}
+
+.img-02 p {
+    position: absolute;
+    font-size: 17px;
+    left: 135px;
+    top: 60px;
+    color: hsl(236, 13%, 42%);
+}
+
+.img-03 {
+    position: absolute;
+    height: 150px;
+    width: 33%;
+    bottom: 5px;
+    left: 67%;
+}
+
+.img-03 img {
+    position: relative;
+    height: 100%;
+}
+
+.img-03 h3 {
+    position: absolute;
+    font-size: 30px;
+    left: 135px;
+    top: -34px;
+    color: hsl(233, 8%, 79%);
+
+}
+
+.img-03 h4 {
+    font-size: 22px;
+    position: absolute;
+    left: 135px;
+    top: 10px;
+    color: hsl(240, 100%, 5%);
+
+
+}
+
+.img-03 p {
+    position: absolute;
+    font-size: 17px;
+    left: 135px;
+    top: 60px;
+    color: hsl(236, 13%, 42%);
+}

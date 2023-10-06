@@ -1,0 +1,88 @@
+@media only screen and (max-width:600px) {
+
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+        top: -90px;
+    }
+
+    .menu {
+        cursor: pointer;
+    }
+
+    .menu {
+        display: flex;
+        position: absolute;
+        width: 60px;
+        height: 40px;
+        margin: 10px;
+        right: 0;
+        bottom: 0;
+        font-weight: 800;
+
+    }
+
+
+    ul {
+        display: none;
+        flex-direction: column;
+        height: 100vh;
+        margin: none;
+        z-index: 1;
+        position: absolute;
+        width: 250px;
+        right: 0;
+        background: yellowgreen;
+        justify-content: center;
+
+    }
+
+    .imagem-web {
+        width: 100%;
+        left: 0;
+    }
+
+    .the {
+        width: 100%;
+        left: 0;
+        border: none;
+    }
+
+    .read {
+        width: 100%;
+        left: 0;
+        top: 625px;
+    }
+
+
+    .new {
+        width: 100%;
+        left: 0;
+        top: 800px;
+        margin: none;
+    }
+
+
+    .img-01 {
+        width: 100%;
+        left: 0;
+        top: 1270px;
+    }
+
+    .img-02 {
+        width: 100%;
+        left: 0;
+        top: 1430px;
+
+    }
+
+    .img-03 {
+        width: 100%;
+        left: 0;
+        top: 1590px;
+
+
+
+    }
+}
